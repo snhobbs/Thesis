@@ -1,0 +1,63 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Rotation curve fit to NGC 6503. The disparity between the measured rotation curve (points), the stellar mass in the disk (dashed line), and the interstellar gas (dotted line) is attributed to an isothermal dark halo (dash-dot line). The sum of these components are the solid fit line \cite {RotationCurvesBegeman1991}. The measured rotation curve is essentially constant with increasing radius past 2 kpc. If the mass were distributed like the visible component, the rotation curve would drop off $\propto 1/\sqrt {r}$ at large radii.\relax }}{4}{figure.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces False colour composite image of the interacting cluster 1E0657-558 (the Bullet Cluster). X-ray emissions from the hot interstellar gas (red) accounts for $\sim 80\%$ of the baryonic matter in the cluster. The gas has been stripped from the galactic cores in the collision. The mass in the cluster (blue), measured from micro-lensing studies, is shown to be separated from the x-ray emitting gas, occurring instead around the galactic centers. The mass distribution from the study of this cluster is one of the most definitive arguments for weakly interacting particle dark matter. Composite Credit: x-ray: NASA/CXC/CfA/ M.Markevitch et al.; Lensing Map: NASA/STScI; ESO WFI; Magellan/U.Arizona/ D.Clowe et al. Optical: NASA/STScI; Magellan/U.Arizona/D.Clowe et al. \cite {Clowe2004BulletCluster}\relax }}{6}{figure.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces All-sky temperature profile from the nine year \gls {wmap} data release with the Milky Way removed and multipole corrected for our peculiar velocity \cite {wmap9Year}. Fluctuations are shown as color differences corresponding to growth areas of large structures. The temperature range of these fluctuations are within $\pm $ 200 $\mu $K. Credit: NASA / \gls {wmap} Science Team\relax }}{8}{figure.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagram of the detection method used for a selection of the largest and most sensitive direct detection experiments. Several experiments combine signal types in their design. The \gls {deap3} design is a single phase argon scintillation detector.\relax }}{13}{figure.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Current and projected limitations for the \gls {wimp} spin independent cross section as a function of mass. Due to its large size and high sensitivity, \gls {deap3} is anticipated to either detect or set a new lower bound for the $\sim $ 100 GeV \gls {wimp}. Image source: \cite {deap3DarkMatterSearch}. \relax }}{14}{figure.2.5}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces DEAP senses particle interactions through the release of ultraviolet light caused by the nuclear or electronic recoil of the argon nuclei.\relax }}{16}{figure.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagram of the energy level of the first few argon atomic states with the potential increasing with height (image based on \cite {tinaPollmann} and \cite {UVEmissionInArgon}). The emitted photon from the excimer decay has a lower energy than any atomic absorption line, ensuring that it will not be reabsorbed in the medium.\relax }}{17}{figure.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \gls {deap1} Fprompt and energy distribution of neutron and $\gamma $ argon scintillation events from a Am-Be calibration source. Nuclear recoils from incident neutron are in the upper band (yellow), the lower band (black) is that of $\gamma $-ray interactions. It is this separation between event types that allows for background suppression of $\beta $ $\&$ $\gamma $ events in \gls {deap3}.\relax }}{20}{figure.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Schematic design of the \gls {deap1} detector configuration. Liquid argon is held within the central stainless steel chamber. The chamber is lined with an inner acrylic cylinder and a diffuse reflector. \gls {tpb} is coated on the inner detector surface to wavelength-shift the scintillation light from 128 nm $\rightarrow $ 425 nm. The shifted light is transmitted to the \gls {pmt}s through \gls {pmma} (polymethyl methacrylate) acrylic light guides, thermally insulating the \gls {pmt}s and shielding the argon from any neutron sources in the \gls {pmt}s. The latest version of \gls {deap1} is outfitted with the same \gls {pmt}s as used with \gls {deap3}. Image from: \cite {2009DEAP1}.\relax }}{21}{figure.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textbf {Left:} The acrylic vessel with light guides attached. \textbf {Center:} Detector with \gls {pmt}s $\&$ foam/filler blocks installed. \textbf {Right:} Detector with steel shell and outward facing veto \gls {pmt}s installed.\relax }}{22}{figure.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Engineering design rendering of the \gls {deap3} detector. Each of the primary components are labeled.\relax }}{23}{figure.3.6}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagram of the information and signal flow of the system. Image credit: DEAP Collaboration.\relax }}{25}{figure.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The digital trigger module populated with the ADC, trigger I/O, and the clock mezzanine boards. Digital control is implemented on an Altera Stratix IV GX field programmable gate array.\relax }}{27}{figure.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagram of the information and signal flow in the \gls {dtm}.\relax }}{31}{figure.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Trigger regions as used in the pulse shape discrimination background rejection method. Noise in the \gls {pmt}s fall under very low energy and $\beta $ events are grouped into high energy low \gls {fprompt}. The \gls {wimp} region of interest is at high \gls {fprompt} and could fall into either region of energy.\relax }}{32}{figure.4.4}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Rendering of the light injection system for a \gls {pmt} \gls {aarf}. Light from a 435 nm \gls {led} is passed over acrylic optical fibres and reflected off an aluminium coated acrylic reflector onto the host \gls {pmt}.\relax }}{34}{figure.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \textbf {Left:} Typical \gls {aarf} \gls {dtm} waveform for an intensity of 1270. \textbf {Right:} \gls {fprompt} against number of photo electrons recorded per event at an \gls {aarf} intensity of 1270\relax }}{37}{figure.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \textbf {Left:} Typical \gls {aarf} \gls {dtm} waveform for an intensity of 1530. \textbf {Right:} \gls {fprompt} against number of photo electrons recorded per event at an \gls {aarf} intensity of 1530\relax }}{37}{figure.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \textbf {Left:} Typical \gls {aarf} \gls {dtm} waveform for an intensity of 1870. \textbf {Right:} \gls {fprompt} against number of photo electrons recorded per event at an \gls {aarf} intensity of 1870\relax }}{38}{figure.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Histograms of the total light injection events (green) and the events recorded by the trigger (black) for a \gls {dtm} threshold of 1400 ADC\relax }}{39}{figure.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Histograms of the total light injection events (green) and the events recorded by the trigger (black) for a \gls {dtm} threshold of 6000 ADC\relax }}{40}{figure.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Histograms of the total light injection events (green) and the events recorded by the trigger (black) for a \gls {dtm} threshold of 15000 ADC\relax }}{41}{figure.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Efficiency of the trigger for a \gls {dtm} threshold of 1400 ADC. The efficiency is taken from the histograms given in Fig. \ref {Fig:effHists1400} and is fit to a Gaussian error function (Eq. \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {Eq:fitErf}\unskip \@@italiccorr )}}).\relax }}{45}{figure.5.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Efficiency of the trigger for a \gls {dtm} threshold of 6000 ADC. The efficiency is taken from the histograms given in Fig. \ref {Fig:effHists6000} and is fit to a Gaussian error function (Eq. \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {Eq:fitErf}\unskip \@@italiccorr )}}).\relax }}{46}{figure.5.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Efficiency of the trigger for a \gls {dtm} threshold of 15000 ADC. The efficiency is taken from the histograms given in Fig. \ref {Fig:effHists15000} and is fit to a Gaussian error function (Eq. \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {Eq:fitErf}\unskip \@@italiccorr )}}).\relax }}{47}{figure.5.10}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}

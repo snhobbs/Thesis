@@ -1,0 +1,153 @@
+\documentclass[masters]{ucbthesis}
+\usepackage{xcolor}%
+\definecolor{webblue}{rgb}{0, 1, 1}  % less intense blue
+\definecolor{webred}{rgb}{0.25, 0.05, 0}   % less intense red
+\usepackage[linkbordercolor = webblue]{hyperref}
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={Study and Development of Pulse shape Discrimination Firmware for Background Mitigation in the DEAP Experiment},    % title
+    pdfauthor={Simon T. Norman Hobbs},     % author
+    pdfsubject={Honours Thesis},   % subject of the document
+    pdfkeywords={dark matter, DEAP, DEAP-3600, trigger, pulse shape discrimination}, % list of keywords
+	pdfnewwindow=true,      % links in new PDF window
+    colorlinks=false,       % false: boxed links; true: colored links
+    linkcolor=red,          % color of internal links (change box color with linkbordercolor)
+    citecolor=lightgray,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan,           % color of external links
+    linktoc=page,
+}
+
+\usepackage{hypcap}
+\usepackage{biblatex}
+\fontfamily{pcr}
+\usepackage[nonumberlist, xindy]{glossaries}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{bm}% bold math
+
+%\usepackage{ulem} THIS BREAKS SHIT
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+\usepackage{epstopdf}
+%\newtheorem{theorem}{Jibberish}
+
+\usepackage{glossary-mcols}
+\usepackage{booktabs}
+
+\DeclareGraphicsExtensions{.pdf,.png, .jpg,.JPG}
+\graphicspath{ {../images/} }
+\setlength{\textwidth}{16.2cm}
+\setlength{\oddsidemargin}{0.3cm}
+\setlength{\evensidemargin}{0.3cm}
+\setlength{\topmargin}{-0.3cm}
+\setlength{\textheight}{22.2cm}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+
+%\bibliographystyle{unsrt}
+
+
+\hyphenation{mar-gin-al-ia}
+
+% \FIXME{} is a useful macro for noting things needing to be changed.
+% The following definition will also output a warning to the console
+\newcommand{\FIXME}[1]{\typeout{**FIXME** #1}\textbf{[FIXME: #1]}}
+
+%glossary terms
+
+\input{glossaries}
+\setglossarystyle{tree}
+
+\bibliography{references}
+\setcounter{secnumdepth}{5}
+
+%\def\dsp{\def\baselinestretch{2.0}\large\normalsize}
+\dsp
+\pdfminorversion=5
+\pdfobjcompresslevel=3
+\pdfcompresslevel=9
+
+
+\begin{document}
+
+
+\title{Study and Development of Pulse-shape Discrimination Firmware for Background Mitigation in the DEAP Experiment}
+\author{Simon T. Norman-Hobbs}
+
+\degreesemester{April}
+\degreeyear{2016}
+\degree{Bachelor of Science}
+%\chair{Professor Richard Francis Sony}
+%\othermembers{Professor Roger Spam \\
+ % Associate Professor Michael Chex}
+%\numberofmembers{3}
+%\prevdegrees{B.A. (University of Northern South Dakota at Hoople) 1978 \\
+ % M.S. (Ed's School of Quantum Mechanics and Muffler Repair) 1989}
+\field{Physics}
+\campus{Vancouver}
+
+\maketitle
+
+%\approvalpage
+%\copyrightpage
+
+\include{abstract}
+
+\begin{frontmatter}
+
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\clearpage
+\printglossary[title=Table of Symbols]
+
+\begin{acknowledgements}
+It is an honour for me to thank all those that helped make this project come to fruition. I would like to thank my supervisor Fabrice Retiere and all the members of the DEAP collaboration, especially Ben Smith, Thomas Linder, Pierre-Andr\'{e}  Armundez, and Yair Linn. If it were not for their constant help this would not have been possible. I would like to thank my parents Maureen Norman and my father Philip Hobbs for their encouragement, support, prayers, and proof-reading. I'd additionally like to thank Chris Mann, Birgit Rogalla, and Alexandra Merkouriou for challenging me and making such excellent study partners over my undergraduate career.
+
+%Additionally I'd like to thank my buddy Joey Ricci and the brothers in Phi Gamma Delta both at UBC and UCONN for being such savages and overall degenerates.
+
+\end{acknowledgements}
+
+\begin{dedication}
+	\null\vfil
+	\begin{center}
+		\textit{
+		"Don't sweat the petty things, and don't pet the sweaty things."\\
+		--- George Carlin
+		}
+	\end{center}
+	\vfil\null
+\end{dedication}
+
+%\numberofmembers{3}
+
+\end{frontmatter}
+\pagestyle{headings}
+\include{chap1}
+\include{chap2}
+\include{chap3}
+\include{chap4}
+\include{chap5}
+\include{conclusion}
+\nocite{*}
+\printbibliography
+%\include{appendix_a}
+
+\end{document}
